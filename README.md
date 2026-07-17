@@ -24,4 +24,4 @@ Saksı bitkileri yetiştirmek için tasarlanmış, enerji tasarruflu ve tamamen 
 
 ## 📊 Devre Şeması
 
-Devre şeması circuit.svg olarak yüklenmiştir.
+![Devre Şeması](sema.svg)
