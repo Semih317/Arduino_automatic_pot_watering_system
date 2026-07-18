@@ -21,8 +21,8 @@ Bazı powerbankler için 1 adet direnç yeterli olmamaktadır. Bu durumda diren�
 - 6V Dalgıç Su Pompası ve hortum
 - 16x2 LCD Ekran
 - Powerbank (Arduino için) & Harici Pil Bloğu (Pompa için)
-- Kaydırmalı Anahtar, 10k ohm potansiyometre, 10 k ohm direnç, 220 ohm direç, 1000 uF kondansatör
-- Breadboard, dişi-erkek ve erkek-erkek jumper kablo, bakır tel (pil bloğunu birleştirmek için)
+- Kaydırmalı Anahtar, 10k ohm Potansiyometre, 10 k ohm Direnç, 220 ohm Direç, 1000 µF Kondansatör
+- Breadboard, Dişi-Erkek ve Erkek-Erkek Jumper Kablo, Bakır Tel (Pil Bloğunu Birleştirmek için)
 
 ## 📊 Devre Şeması
 
@@ -47,8 +47,8 @@ For some power banks, a single resistor isn't enough. In that case, the number o
 - 6V Submersible Water Pump and hose
 - 16x2 LCD Screen
 - Power Bank (for Arduino) & External Battery Pack (for the pump)
-- Slide Switch, 10k ohm potentiometer, 10k ohm resistor, 220 ohm resistor, 1000 µF capacitor
-- Breadboard, female-male and male-male jumper wires, bare copper wire (for connecting the battery pack)
+- Slide Switch, 10k ohm Potentiometer, 10k ohm Resistor, 220 ohm Resistor, 1000 µF Capacitor
+- Breadboard, Female-Male and Male-Male Jumper Wires, Bare Copper Wire (For Connecting The Battery Pack)
 
 ## 📊 Circuit Diagram
 ![Circuit Diagram](circuit.svg)
