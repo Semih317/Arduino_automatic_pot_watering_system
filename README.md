@@ -14,7 +14,7 @@ Bazı powerbankler için 1 adet direnç yeterli olmamaktadır. Bu durumda diren�
 
 ## 🛠️ Kullanılan Donanımlar
 
-- Arduino Nano
+- Arduino Nano ve Mini USB Kablo
 - Toprak Nem Sensörü (YL-69 (FC-28))
 - DHT11
 - 5V Röle Modülü
@@ -40,7 +40,7 @@ An energy-efficient, fully automated irrigation system designed for potted plant
 For some power banks, a single resistor isn't enough. In that case, the number of resistors can be increased. (I encountered this scenario myself and solved it by using 4 220-ohm resistors.)
 
 ## 🛠️ Hardware Used
-- Arduino Nano
+- Arduino Nano and Mini USB Cable
 - Soil Moisture Sensor (YL-69 (FC-28))
 - DHT11
 - 5V Relay Module
