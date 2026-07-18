@@ -1,3 +1,5 @@
+# TR/ENG
+# Türkçe
 # Otomatik Sulama Sistemi 🌿💧
 
 Saksı bitkileri yetiştirmek için tasarlanmış, enerji tasarruflu ve tamamen otomatik bir sulama sistemi. Bu proje, toprak nem seviyesini anlık olarak izlemek için bir analog nem sensörü kullanır; toprak kuruduğunda ise **Arduino Nano** aracılığıyla röle modülünü tetikleyerek 5V su pompasını otomatik olarak çalıştırır. Sistem durumu ve veriler 16x2 LCD ekranda anlık olarak gösterilir.
@@ -26,6 +28,7 @@ Bazı powerbankler için 1 adet direnç yeterli olmamaktadır. Bu durumda diren�
 
 ![Devre Şeması](circuit.svg)
 
+# English
 # Automatic Irrigation System 🌿💧
 An energy-efficient, fully automated irrigation system designed for potted plants. This project uses an analog moisture sensor to continuously monitor soil moisture levels; when the soil dries out, an **Arduino Nano** triggers a relay module to automatically turn on a 5V water pump. System status and data are displayed in real time on a 16x2 LCD screen.
 
