@@ -28,6 +28,9 @@ Bazı powerbankler için 1 adet direnç yeterli olmamaktadır. Bu durumda diren�
 
 ![Devre Şeması](circuit.svg)
 
+## Sistem Görseli
+![Sistem Görseli](automatic_watering_system.jpeg)
+
 # English
 # Automatic Irrigation System 🌿💧
 An energy-efficient, fully automated irrigation system designed for potted plants. This project uses an analog moisture sensor to continuously monitor soil moisture levels; when the soil dries out, an **Arduino Nano** triggers a relay module to automatically turn on a 5V water pump. System status and data are displayed in real time on a 16x2 LCD screen, controlled via a button. The system checks the soil moisture once per hour. If the moisture level is below the set threshold, irrigation is triggered. The soil is then checked again. This process is limited to 10 attempts to prevent the risk of entering an infinite loop.
@@ -52,3 +55,6 @@ For some power banks, a single resistor isn't enough. In that case, the number o
 
 ## 📊 Circuit Diagram
 ![Circuit Diagram](circuit.svg)
+
+## System Image
+![System Image](automatic_watering_system.jpeg)
