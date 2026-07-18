@@ -56,5 +56,5 @@ For some power banks, a single resistor isn't enough. In that case, the number o
 ## 📊 Circuit Diagram
 ![Circuit Diagram](circuit.svg)
 
-## System Image
-![System Image](automatic_watering_system.jpeg)
+## System Overview
+![System Overview](automatic_watering_system.jpeg)
