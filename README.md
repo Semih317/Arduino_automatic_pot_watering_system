@@ -2,7 +2,7 @@
 # Türkçe
 # Otomatik Sulama Sistemi 🌿💧
 
-Saksı bitkileri yetiştirmek için tasarlanmış, enerji tasarruflu ve tamamen otomatik bir sulama sistemi. Bu proje, toprak nem seviyesini anlık olarak izlemek için bir analog nem sensörü kullanır; toprak kuruduğunda ise **Arduino Nano** aracılığıyla röle modülünü tetikleyerek 5V su pompasını otomatik olarak çalıştırır. Sistem durumu ve veriler 16x2 LCD ekranda anlık olarak gösterilir.
+Saksı bitkileri yetiştirmek için tasarlanmış, enerji tasarruflu ve tamamen otomatik bir sulama sistemi. Bu proje, toprak nem seviyesini anlık olarak izlemek için bir analog nem sensörü kullanır; toprak kuruduğunda ise **Arduino Nano** aracılığıyla röle modülünü tetikleyerek 5V su pompasını otomatik olarak çalıştırır. Sistem durumu ve veriler bir buton aracılığyla kontrol edilen 16x2 LCD ekranda anlık olarak gösterilir. Sistem saatte bir olmak üzere toprak nemini kontrol eder. Eğer nem, belirlenen değerin altındaysa sulama yapılır. Daha sonra tekrar kontrol edilir. Bu işlem sonsuz döngüye girme tehlikesini engellemek için 10 defa ile sınırlandırılmıştır.
 
 ## 🚀 Öne Çıkan Özellikler
 
@@ -30,7 +30,7 @@ Bazı powerbankler için 1 adet direnç yeterli olmamaktadır. Bu durumda diren�
 
 # English
 # Automatic Irrigation System 🌿💧
-An energy-efficient, fully automated irrigation system designed for potted plants. This project uses an analog moisture sensor to continuously monitor soil moisture levels; when the soil dries out, an **Arduino Nano** triggers a relay module to automatically turn on a 5V water pump. System status and data are displayed in real time on a 16x2 LCD screen.
+An energy-efficient, fully automated irrigation system designed for potted plants. This project uses an analog moisture sensor to continuously monitor soil moisture levels; when the soil dries out, an **Arduino Nano** triggers a relay module to automatically turn on a 5V water pump. System status and data are displayed in real time on a 16x2 LCD screen, controlled via a button. The system checks the soil moisture once per hour. If the moisture level is below the set threshold, irrigation is triggered. The soil is then checked again. This process is limited to 10 attempts to prevent the risk of entering an infinite loop.
 
 ## 🚀 Key Features
 - Soil moisture is continuously analyzed to prevent both overwatering and underwatering.
