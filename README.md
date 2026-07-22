@@ -9,6 +9,7 @@ Saksı bitkileri yetiştirmek için tasarlanmış, enerji tasarruflu ve tamamen 
 - Aşırı veya yetersiz sulamayı önlemek için toprağın nem durumu sürekli analiz edilir.
 - Kontrol devresi (Arduino ve sensörler) ile yüksek akım çeken yük (su pompası) tamamen bağımsız güç kaynaklarından beslenir. Bu sayede motor parazitleri engellenir ve Arduino'nun kilitlenmesi/reset atması önlenir.
 - LCD ekranın arka ışık katotu (-) doğrudan Arduino'nun dijital `D8` pinine bağlanmıştır. Işık buton ile isteğe bağlı açılır, sistem boşta beklerken kapatılarak pil ömrü maksimuma çıkarılır.
+  DİKKAT; Burada arduinonun pininin verebileceği akımın LCD`nin arka ışığının çektiği akımdan yüksek olması gerekmektedir. Aksi halde arduino veya lcd bozulabilir.
 - Paylaşılan standart devre şeması; herhangi bir 5V USB adaptör, bilgisayar bağlantısı veya standart pillerle tamamen uyumludur. Eğer powerbank kullanılacaksa ve bir süre sonra powerbank kendi kendini kapatıyorsa, düşük akım modu açılmalıdır. Eğer bu mod yoksa, Arduino`nun 5V ve GND pinlerini birleştiren 220 ohm değerinde direnç kullanılabilir. Bu direnç powerbank`den çekilen akımı artırarak kapanmamasını sağlamaktadır. 
 Bazı powerbankler için 1 adet direnç yeterli olmamaktadır. Bu durumda dirençlerin sayısı artırılabilir. (Ben bu senaryoyu yaşadım ve 4 adet 220 ohm direnç kullanarak bu sorunu çözdüm.)
 
@@ -39,6 +40,7 @@ An energy-efficient, fully automated irrigation system designed for potted plant
 - Soil moisture is continuously analyzed to prevent both overwatering and underwatering.
 - The control circuit (Arduino and sensors) and the high-current load (water pump) are powered by completely separate power sources. This prevents motor-induced noise/interference and avoids Arduino freezing or resetting.
 - The LCD's backlight cathode (-) is connected directly to the Arduino's digital `D8` pin. The light can be turned on optionally via a button, and is kept off while the system is idle to maximize battery life.
+  ATTENTION: The maximum current that the Arduino pin can source must be higher than the current drawn by the LCD backlight. Otherwise, either the Arduino or the LCD display may be damaged.
 - The shared standard circuit schematic is fully compatible with any 5V USB adapter, computer connection, or standard batteries. If a power bank is used and it eventually shuts itself off, a low-current mode should be enabled. If this mode isn't available, a 220-ohm resistor can be used to connect the Arduino's 5V and GND pins. This resistor increases the current drawn from the power bank, preventing it from shutting down.
 For some power banks, a single resistor isn't enough. In that case, the number of resistors can be increased. (I encountered this scenario myself and solved it by using 4 220-ohm resistors.)
 
